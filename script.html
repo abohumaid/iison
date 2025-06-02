@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="script.css">
+    <link rel="icon" href="images/abazaicon.png" type="image/png" />
+    
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+    <title>Abaza</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+  />
+
+
+    <style>
+    .collapse {
+      display: none;
+      margin-top: 10px;
+    }
+
+    .collapse.active {
+      display: block;
+    }
+
+    .card {
+          
+      border: 1px solid #ccc;
+      padding: 15px;
+      border-radius: 5px;
+      direction: rtl;
+      margin-left: 15px;
+      margin-right: 15px;
+   background-color: rgb(60, 60, 61);
+
+    }
+
+    .btn {
+      padding: 10px 15px;
+      margin-right: 5px;
+      background-color: #375b7e;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      justify-content: center;
+      font-size: 30px;
+    }
+
+    .btn:hover {
+      background-color: #6c757e;
+      
+    }
+    body{
+      background-image: url('images/car5.jpg');
+    }
+  </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="icon"> <img src="images/abazaicon.png" alt="" width="60px" height="50px"></div>
+        <div class="item1"><b><a class="aitem1" href="index.html">Home</a></b></div>
+        <div class="item2"><b><a class="aitem2" href="info.html">Info</a></b> </div>
+        <div class="item5"><b><a  onclick="showAlert('alert1')"  class="aitem5" href="#">IP</a></b> </div>
+        <div class="item4"><b><a  onclick="showAlert('alert2')"  class="aitem4" href="carsmodel.html">Cars & Model</a></b> </div>
+        <div class="item3"><b><a   class="aitem3" href="Branches.html">Branches</a></b> </div>
+        <div class="item5"><b><a class="aitem5" href="script.html">Script</a></b> </div>
+        <div class="item5"><b><a class="aitem5" href="updata.html">Updates</a></b> </div>
+
+
+    </div>
+
+   
+ 
+   
+ <div id="alert1" class="customAlert">
+        <div class="customAlertBox" >
+            <table class="table1">
+              <tr>
+                <th>Name Branch</th>
+                <th><pre style="font-size: 17px;">                                Phone Number                                      </pre></th>
+                <th>Branch Land Number</th>
+                <th>Ip</th>
+               
+
+              </tr>
+      
+              <tr>
+                <td style="text-align: center;">الطيران </td>
+                <td >احمد سعيد ابراهيم على  :: 01018002644 </td> 
+               <td  style="text-align: center;">0223848155 <hr>0221824586</td>
+                <td>673542</td>
+              </tr>
+              <tr>
+                <td style="text-align: center;">الطيران</td>
+                <td >محمد طارق رمضان احمد      :: 01012677899  <hr>   احمد سعيد ابراهيم على:: 
+                  01018002644</td> 
+                <!-- <td >احمد     :: 00000 </td>  -->
+                <td  style="text-align: center;">0223848155 <hr> 0221824585</td>
+                <td>673543</td>
+              </tr>
+              <tr>
+                <td style="text-align: center;" class="thw">اكتوبر</td>
+                <td  class="thw">زياد عرفة حامد احمد     :: 01022512600 </td> 
+                <td style="text-align: center;" class="thw">0238371766</td>
+                <td class="thw">673544</td>
+              </tr>
+              <tr>
+                <td style="text-align: center;" class="thw">اكتوبر</td>
+                <td  class="thw">احمد محمود جعفر سليمان     :: 01098818700 <hr>
+                  محمد محمود ابراهيم حسن عطيه:: 01066684272 
+
+
+                </td> 
+                <td style="text-align: center;" class="thw">0238375244</td>
+                <td class="thw">673545</td>
+              </tr>
+              <tr>
+                <td style="text-align: center;">التجمع</td>
+                 <td >
+                     ساره عصام محمد كمال  :: 01066637930 <hr>
+                    دنيا ايهاب صلاح الدين محمود :: 01028915553  <hr>
+                    احمد عبد الشافى احمد محمد :: 01022309660  <hr>
+                    محمود سامى محمود على :: 01066639980
+  
+                    
+
+
+                </td>
+                
+                <td  style="text-align: center;">0223146040</td>
+                <td>673540</td>
+              </tr>
+              <tr>
+                <td style="text-align: center;">التجمع</td>
+                <td > احمد احمد ابراهيم اباظه  :: 01000142543 <hr>
+                    محمود عبد العزيز موسى سيد نوفل :: 01032442900  <hr>
+                    رفقه القس تادرس القس ابراهيم :: 01022236805  <hr>
+                    احمد محمد ابراهيم عبد الله :: 01070225066
+  
+                    
+
+
+                </td>
+                
+                <td  style="text-align: center;">0223146041</td>
+                <td>673541</td>
+              </tr>
+              <tr>
+                <td style="text-align: center;" class="thw">طنطا </td>
+                <td  class="thw">محمود ايمن محمود الجارحى     :: 01091833339 </td> 
+               <td style="text-align: center;" class="thw">...............</td>
+                <td class="thw">...............</td>
+              </tr>
+              <tr>
+                <td style="text-align: center;" class="thw">طنطا </td>
+                <td  class="thw">منة الله مصطفى السيد محمد     :: 01012233367 <hr>
+                 احمد محمد احمد محمد ناصر  :: 01003402948 
+
+                </> 
+               <td  style="text-align: center;" class="thw">...............</td>
+                <td class="thw">...............</td>
+              </tr>
+              <tr>
+                <td style="text-align: center;" >الغردقة 1</td>
+                <td >محمد سيد محمد سيد     :: 01066684280 <hr>
+                  محمد سمير محمد حسن::01018003211 <hr>
+                   مصطفى احمد سيد محمد::01016465111 <hr>
+                    حسين محمد متولى محمود::01022236804
+
+
+                </td>
+               <td style="text-align: center;"  >01003466118 <hr> 01003466118</td>
+                <td>...............</td>
+              </tr>
+              <tr>
+                <td style="text-align: center;" >الغردقة 2</td>
+                <td >عصام ابراهيم بلاسى بلاسى     :: 01050966486 <hr>
+                  عبد الرحمن السيد اسماعيل السيد:: 01009068605 <hr>
+                  بيشوى سعد صليب عزيز:: 01066637892 <hr>
+                  محمود محمد محمد عبد الرحيم:: 01000149861 
+
+                </td>
+
+
+
+                <td style="text-align: center;" >01006998778</td>
+                <td>...............</td>
+              </tr>
+              <tr>
+                <td style="text-align: center;" class="thw">كفر الشيخ</td>
+                <td  class="thw">هاجر ايمن رجب محمد المغربى     :: 01033378807 </td> 
+                <td style="text-align: center;" class="thw">0473232036</td>
+                <td class="thw">...............</td>
+              </tr>
+              <tr>
+                <td style="text-align: center;" class="thw">كفر الشيخ</td>
+                <td  class="thw">هايدى الشريف مصطفى محمود     :: 01000159141 <hr>
+                  وليد خالد حسن السيد:: 01027422213
+
+
+                </td> 
+                <td style="text-align: center;" class="thw">0473232036</td>
+                <td class="thw">...............</td>
+              </tr>
+              <tr>
+                <td style="text-align: center;">العلمين</td>
+                <td >محمد سامى عزوز محمد رمضان     ::01050966487 <hr>  مصطفى محمود عبد السلام عكاشة ::01021873399 
+
+                
+
+                </td>
+                <td style="text-align: center;" >...............</td>
+                <td >...............</td>
+              </tr>
+              
+            </tr><tr>
+             
+            </tr>
+            </table>
+            <div class="opp">
+              <div class="pp1">               رقم شركة مصر للمقطورات أباظة لانجندورف هو 01066639950                  </div>
+              <div class="opp2">             شكاوي  أ/ شيماء - موبيل رقم 01066637895                           </div>
+            </div>
+            
+          <button class="closeAlertBtn" onclick="hideAlert('alert1')">close</button>
+        </div>
+      </div>
+      
+
+
+
+
+
+<p class="d-inline-flex gap-1" style="display: flex; justify-content: center;   margin-top: 70px;">
+    <button class="btn" onclick="toggleContent('collapseOne')" style="width: 250px;  border-radius: 0px 0px 0px 15px; " > خدمه نقل المركبات   </button>
+    <button class="btn" onclick="toggleContent('collapseTwo')" style="width: 250px;  border-radius: 0px 0px 0px 0px; " > استفسار  مركز خدمة </button>
+    <button class="btn" onclick="toggleContent('collapsefour')" style="width: 250px;  border-radius: 0px 0px 0px 0px;  "> استفسار عن عربية  </button>
+    <button class="btn" onclick="toggleContent('collapseThree')" style="width: 250px;  border-radius: 0px 0px 15px 5px;  " >الاستفسارات    </button>
+
+  </p>
+
+
+  <div id="collapseThree" class="collapse">
+
+    <div class="card">
+      <div class="i" style="font-weight: 800; text-align: center; font-size: 25px; background-color: #64146b; border-radius: 10px; padding: 5px; margin: 0px 90px 0px 120px;">في حالة استفسار العميل سعر سكوتر الكهربا – سعر عربيه – عربيه متاحه ام لا – صيانه – استبدال - مستعمل – مركز خدمه – عنوان فرع  (يتم اتباع السناريو التالي )</div>
+      <div class="sp" style="display: grid; margin-left:10px; grid-template-columns: 8% 40% 40% 8%  ;  column-gap: 10px; row-gap: 10px;height: 140px;">
+        <div class="sp1" style=" margin-right: 30px;"><img style="mask-image: linear-gradient(to bottom, rgb(65, 6, 92) 70%, transparent 100%); border-radius: 0 0 0px 30px; " src="images/serviers.png" alt="" width="60px" height="100px"></div>
+        <div class="sp2" style="background-color: rgb(138, 127, 127); border-radius: 30px 0px 30px 30px; padding: 20px; font-size: 25px; height: 55px;  margin: 50px 0px 40px 20px; width: 480px; font-weight: 600;">  صباح الخير / مساء الخير اباظة اوتو تريدينج  <br>(اسم الموظف) مع حضرتك     </div>
+        <div class="sp3"style="background-color: rgb(88, 84, 84); border-radius: 0px 30px 30px 30px ; direction:rtl;  padding: 20px; font-size: 25px;  height: 40px;  margin: 60px 20px 0px 0px;font-weight: 600; ">    مساء الخير / صباح النور </div>
+        <div class="sp1" style=" direction: ltr;"><img style="mask-image: linear-gradient(to bottom, rgb(65, 6, 92) 70%, transparent 100%); border-radius: 0 0 0px 30px; margin-top: 10px; " src="images/client.png" alt="" width="100px" height="100px"></div>
+      </div> 
+       <div class="sp" style="display: grid; margin-left:10px; grid-template-columns: 8% 40% 40% 8%  ;  column-gap: 10px; row-gap: 10px;height: 120px;">
+        <div class="sp1" style=" margin-right: 30px;"><img style="mask-image: linear-gradient(to bottom, rgb(65, 6, 92) 70%, transparent 100%);  border-radius: 0 0 0px 30px; margin-bottom: 60px;  " src="images/serviers.png" alt="" width="60px" height="100px"></div>
+        <div class="sp2" style="background-color: rgb(138, 127, 127); border-radius: 30px 0px 30px 30px; padding: 20px; font-size: 25px; height: 55px;  margin: 20px 0px 40px 0px; width: 480px;  font-weight: 600;">تمام يا فندم اسمحلي في البداية اتشرف باسم حضرتك الثنائي      </div>
+        <div class="sp3"style="background-color: rgb(88, 84, 84); border-radius: 0px 30px 30px 30px ; direction:rtl;  padding: 20px; font-size: 25px;  height: 40px;  margin: 30px 20px 0px 0px;font-weight: 600; ">  احمد محمد     </div>
+        <div class="sp1" style=" direction: ltr;"><img style="mask-image: linear-gradient(to bottom, rgb(65, 6, 92) 70%, transparent 100%); border-radius: 0 0 0px 30px; margin-top: 50x;  " src="images/client.png" alt="" width="100px" height="100px"></div>
+      </div> 
+       <div class="sp" style="display: grid; margin-left:10px; grid-template-columns: 8% 40% 40% 8%  ;  column-gap: 10px; row-gap: 10px;height: 150px;">
+        <div class="sp1" style=" margin-right: 30px;"><img style="mask-image: linear-gradient(to bottom, rgb(65, 6, 92) 70%, transparent 100%);  border-radius: 0 0 0px 30px; margin-bottom: 60px;  " src="images/serviers.png" alt="" width="60px" height="100px"></div>
+        <div class="sp2" style="background-color: rgb(138, 127, 127); border-radius: 30px 0px 30px 30px; padding: 20px; font-size: 25px; height: 55px;  margin: 20px 0px 40px 0px; width: 480px;font-weight: 600; ">استفسار حضرتك بخصوص ايه استاذ احمد      </div>
+        <div class="sp3"style="background-color: rgb(88, 84, 84); border-radius: 0px 30px 30px 30px ; direction:rtl;  padding: 20px; font-size: 25px;  height: 75px;  margin: 30px 20px 0px 0px;font-weight: 600; ">   كنت بسال علي سعر سكوتر الكهربا – سعر عربيه – عربيه متاحه ام لا – صيانه – استبدال - مستعمل – مركز خدمه – عنوان فرع      </div>
+        <div class="sp1" style=" direction: ltr;"><img style="mask-image: linear-gradient(to bottom, rgb(65, 6, 92) 70%, transparent 100%); border-radius: 0 0 0px 30px; margin-top: 50x; " src="images/client.png" alt="" width="100px" height="100px"></div>
+      </div>
+      <div class="sp" style="display: grid; margin-left:10px; grid-template-columns: 8% 40% 40% 8%  ; column-gap: 10px; row-gap: 10px;height: 120px;">
+        <div class="sp1" style=" margin-right: 30px;"><img style="mask-image: linear-gradient(to bottom, rgb(65, 6, 92) 70%, transparent 100%); border-radius: 0 0 0px 30px; margin-bottom: 60px;  " src="images/serviers.png" alt="" width="60px" height="100px"></div>
+        <div class="sp2" style="background-color: rgb(138, 127, 127); border-radius: 30px 0px 30px 30px; padding: 20px; font-size: 25px; height: 55px;  margin: 20px 0px 40px 0px; width: 480px;font-weight: 600; ">تمام هاوضح لحضرتك التفاصيل حالا اسمحلي في البدايه ببعض البيانات استاذ محمد      </div>
+        <div class="sp3"style="background-color: rgb(88, 84, 84); border-radius: 0px 30px 30px 30px ; direction:rtl;  padding: 20px; font-size: 25px;  height: 40px;  margin: 30px 20px 0px 0px;font-weight: 600; ">  اتفضل    </div>
+        <div class="sp1" style=" direction: ltr;"><img style="mask-image: linear-gradient(to bottom, rgb(65, 6, 92) 70%, transparent 100%); border-radius: 0 0 0px 30px; margin-top: 50x; " src="images/client.png" alt="" width="100px" height="100px"></div>
+      </div>
+      <div class="sp" style="display: grid; margin-left:10px; grid-template-columns: 8% 40% 40% 8%  ; column-gap: 10px; row-gap: 10px;height: 120px;">
+        <div class="sp1" style=" margin-right: 30px;"><img style="mask-image: linear-gradient(to bottom, rgb(65, 6, 92) 70%, transparent 100%);  border-radius: 0 0 0px 30px; margin-bottom: 60px;  " src="images/serviers.png" alt="" width="60px" height="100px"></div>
+        <div class="sp2" style="background-color: rgb(138, 127, 127); border-radius: 30px 0px 30px 30px; padding: 20px; font-size: 25px; height: 55px;  margin: 20px 0px 40px 0px; width: 480px;font-weight: 600; ">حضرتك بتشرفنا بالاتصال من محافظه ايه – منطقة ايه      </div>
+        <div class="sp3"style="background-color: rgb(88, 84, 84); border-radius: 0px 30px 30px 30px ; direction:rtl;  padding: 20px; font-size: 25px;  height: 40px;  margin: 30px 20px 0px 0px;font-weight: 600; ">  كفر الشيخ    </div>
+        <div class="sp1" style=" direction: ltr;"><img style="mask-image: linear-gradient(to bottom, rgb(65, 6, 92) 70%, transparent 100%); border-radius: 0 0 0px 30px; margin-top: 50x; " src="images/client.png" alt="" width="100px" height="100px"></div>
+      </div>
+      <div class="sp" style="display: grid; margin-left:10px; grid-template-columns: 8% 40% 40% 8%  ;  column-gap: 10px; row-gap: 10px;height: 120px;">
+        <div class="sp1" style=" margin-right: 30px;"><img style="mask-image: linear-gradient(to bottom, rgb(65, 6, 92) 70%, transparent 100%); border-radius: 0 0 0px 30px; margin-bottom: 60px;  " src="images/serviers.png" alt="" width="60px" height="100px"></div>
+        <div class="sp2" style="background-color: rgb(138, 127, 127); border-radius: 30px 0px 30px 30px; padding: 20px; font-size: 25px; height: 55px;  margin: 20px 0px 40px 0px; width: 480px;font-weight: 600; ">تمام استاذ محمد ايه نوع الاسكوتر اللي حضرتك حابب تستفسر عنه ؟      </div>
+        <div class="sp3"style="background-color: rgb(88, 84, 84); border-radius: 0px 30px 30px 30px ; direction:rtl;  padding: 20px; font-size: 25px;  height: 40px;  margin: 30px 20px 0px 0px;font-weight: 600; ">  بيكون اسكوتر كهربا......     </div>
+        <div class="sp1" style=" direction: ltr;"><img style="mask-image: linear-gradient(to bottom, rgb(65, 6, 92) 70%, transparent 100%); border-radius: 0 0 0px 30px; margin-top: 50x; " src="images/client.png" alt="" width="100px" height="100px"></div>
+      </div>
+      <div class="sp" style="display: grid; margin-left:10px; grid-template-columns: 8% 40% 40% 8%  ;  column-gap: 10px; row-gap: 10px;height: 700px;">
+        <div class="sp1" style=" margin-right: 30px;"><img style="mask-image: linear-gradient(to bottom, rgb(65, 6, 92) 70%, transparent 100%);  border-radius: 0 0 0px 30px; margin-bottom: 60px;  " src="images/serviers.png" alt="" width="60px" height="100px"></div>
+        <div class="sp2" style="background-color: rgb(138, 127, 127); border-radius: 30px 0px 30px 30px; padding: 20px; font-size: 25px; height: 600px;  margin: 20px 0px 40px 0px; width: 480px;font-weight: 600; ">    1- تمام استاذ محمد سعر الاسكوتر الكهربا بيكون ....... ولتفاصيل اكتر هاحول حضرتك حالا علي الفرع<br> <hr>2-  والسعر النهائي بيكون من خلال الفرع اللي هاحول حضرتك عليه حالا لتفاصيل اكتر <br> <hr> 3- تمام استاذ محمد معرفه ان السياره متاحه ام لا هايتم تحويل حضرتك علي الفرع لتفاصيل اكتر عن امكانيه وجود السياره وسعرها  <br> <hr> 4- تمام استاذ محمد حضرتك محتاج تعمل صيانه ال 5000 الاف كيلو هاستاذن حضرتك في بعض البيانات ( نوع العربيه – الصيانه التي سيتم تحديدها – البينات الاساسيه ) حاليا هايتم تحويل حضرتك علي مسئول الصيانه وهايوضح لحضرتك كافه التفاصيل  <br> <hr> تمام استاذ محمد عنوان مركز الخدمه بيكون ......... <br> <hr> تمام استاذ محمد عنوان فرع ....... بيكون ......... ومواعيد العمل بتكون من الساعه ...... الي الساعه ........   </div>
+        <div class="sp3"style="background-color: rgb(88, 84, 84); border-radius: 0px 30px 30px 30px ; direction:rtl;  padding: 20px; font-size: 25px;  height: 40px;  margin: 30px 20px 0px 0px;font-weight: 600; ">  تمام     </div>
+        <div class="sp1" style=" direction: ltr;"><img style="mask-image: linear-gradient(to bottom, rgb(65, 6, 92) 70%, transparent 100%); border-radius: 0 0 0px 30px; margin-top: 50x; " src="images/client.png" alt="" width="100px" height="100px"></div>
+      </div>
+      <div class="sp" style="display: grid; margin-left:10px; grid-template-columns: 8% 40% 40% 8%  ;  column-gap: 10px; row-gap: 10px;height: 120px;">
+        <div class="sp1" style=" margin-right: 30px;"><img style="mask-image: linear-gradient(to bottom, rgb(65, 6, 92) 70%, transparent 100%);  border-radius: 0 0 0px 30px; margin-bottom: 60px;  " src="images/serviers.png" alt="" width="60px" height="100px"></div>
+        <div class="sp2" style="background-color: rgb(138, 127, 127); border-radius: 30px 0px 30px 30px; padding: 20px; font-size: 25px; height: 55px;  margin: 20px 0px 40px 0px; width: 480px;font-weight: 600; ">أى استفسار أخر قبل التحويل      </div>
+        <div class="sp3"style="background-color: rgb(88, 84, 84); border-radius: 0px 30px 30px 30px ; direction:rtl;  padding: 20px; font-size: 25px;  height: 40px;  margin: 30px 20px 0px 0px;font-weight: 600; ">   شكرا    </div>
+        <div class="sp1" style=" direction: ltr;"><img style="mask-image: linear-gradient(to bottom, rgb(65, 6, 92) 70%, transparent 100%); border-radius: 0 0 0px 30px; margin-top: 50x; " src="images/client.png" alt="" width="100px" height="100px"></div>
+      </div>
+            <div class="i" style="font-weight: 800; text-align: center; font-size: 25px; background-color: #555d64; border-radius: 10px; padding: 5px; margin: 0px 90px 0px 120px; color: rgb(22, 27, 97);">      يتم تسجيل نوع الاستسفسار :       اسم الفرع التابع له العميل    اسم الصنف    اسم مسئول المبيعات المحول أليه المكالمة فى الفرع  - كافه تفاصيل المكالمه في الكومنت </div><br>
+            <div class="i" style="font-weight: 800; text-align: center; font-size: 25px; background-color: #555d64; border-radius: 10px; padding: 5px; margin: 0px 90px 0px 120px; color: rgb(128, 8, 8);">  فى حالة عدم الرد يتم الاعتذار للعميل (( الفرع مشغول حاليا للرد على عملاء أخرين وتم تقديم طلب بالتواصل  والفرع سوف يتم التواصل مع حضرتك على مدار اليوم  فى اقرب وقت)) </div>
+
+      <div class="sp" style="display: grid; margin-left:10px; grid-template-columns: 8% 40% 40% 8%  ;  column-gap: 10px; row-gap: 10px;height: 150px;">
+        <div class="sp1" style=" margin-right: 30px;"><img style="mask-image: linear-gradient(to bottom, rgb(65, 6, 92) 70%, transparent 100%);  border-radius: 0 0 0px 30px; margin-bottom: 60px;  " src="images/serviers.png" alt="" width="60px" height="100px"></div>
+        <div class="sp2" style="background-color: rgb(138, 127, 127); border-radius: 30px 0px 30px 30px; padding: 20px; font-size: 25px; height: 70px;  margin: 20px 0px 40px 0px; width: 480px;font-weight: 600; ">اي استفسار اخر يا فندم  <br> <hr>شكرا لاتصالك بأباظة  اوتو تريدينج      </div>
+       
+      </div>
+
+
+
+      
+     
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
+      
+    </div>
+  </div>
+
+  <div id="collapsefour" class="collapse">
+      <div class="card">
+      <div class="i" style="font-weight: 800; text-align: center; font-size: 25px; background-color: #64146b; border-radius: 10px; padding: 5px; margin: 0px 90px 0px 120px;">في حالة استفسار العميل عن سيارة (يتم اتباع السناريو التالي )</div>
+      <div class="sp" style="display: grid; margin-left:10px; grid-template-columns: 8% 40% 40% 8%  ;  column-gap: 10px; row-gap: 10px;height: 140px;">
+        <div class="sp1" style=" margin-right: 30px;"><img style="mask-image: linear-gradient(to bottom, rgb(65, 6, 92) 70%, transparent 100%); border-radius: 0 0 0px 30px; " src="images/serviers.png" alt="" width="60px" height="100px"></div>
+        <div class="sp2" style="background-color: rgb(138, 127, 127); border-radius: 30px 0px 30px 30px; padding: 20px; font-size: 25px; height: 55px;  margin: 50px 0px 40px 20px; width: 480px; font-weight: 600;">  صباح الخير / مساء الخير اباظة اوتو تريدينج  <br>(اسم الموظف) مع حضرتك     </div>
+        <div class="sp3"style="background-color: rgb(88, 84, 84); border-radius: 0px 30px 30px 30px ; direction:rtl;  padding: 20px; font-size: 25px;  height: 40px;  margin: 60px 20px 0px 0px;font-weight: 600; ">    مساء الخير / صباح النور </div>
+        <div class="sp1" style=" direction: ltr;"><img style="mask-image: linear-gradient(to bottom, rgb(65, 6, 92) 70%, transparent 100%); border-radius: 0 0 0px 30px; margin-top: 10px; " src="images/client.png" alt="" width="100px" height="100px"></div>
+      </div> 
+       <div class="sp" style="display: grid; margin-left:10px; grid-template-columns: 8% 40% 40% 8%  ;  column-gap: 10px; row-gap: 10px;height: 120px;">
+        <div class="sp1" style=" margin-right: 30px;"><img style="mask-image: linear-gradient(to bottom, rgb(65, 6, 92) 70%, transparent 100%);  border-radius: 0 0 0px 30px; margin-bottom: 60px;  " src="images/serviers.png" alt="" width="60px" height="100px"></div>
+        <div class="sp2" style="background-color: rgb(138, 127, 127); border-radius: 30px 0px 30px 30px; padding: 20px; font-size: 25px; height: 55px;  margin: 20px 0px 40px 0px; width: 480px;  font-weight: 600;">تمام يا فندم اسمحلي في البدابه اتشرف باسم حضرتك الثنائي      </div>
+        <div class="sp3"style="background-color: rgb(88, 84, 84); border-radius: 0px 30px 30px 30px ; direction:rtl;  padding: 20px; font-size: 25px;  height: 40px;  margin: 30px 20px 0px 0px;font-weight: 600; ">  احمد محمد     </div>
+        <div class="sp1" style=" direction: ltr;"><img style="mask-image: linear-gradient(to bottom, rgb(65, 6, 92) 70%, transparent 100%); border-radius: 0 0 0px 30px; margin-top: 50x;  " src="images/client.png" alt="" width="100px" height="100px"></div>
+      </div> 
+       <div class="sp" style="display: grid; margin-left:10px; grid-template-columns: 8% 40% 40% 8%  ;  column-gap: 10px; row-gap: 10px;height: 120px;">
+        <div class="sp1" style=" margin-right: 30px;"><img style="mask-image: linear-gradient(to bottom, rgb(65, 6, 92) 70%, transparent 100%);  border-radius: 0 0 0px 30px; margin-bottom: 60px;  " src="images/serviers.png" alt="" width="60px" height="100px"></div>
+        <div class="sp2" style="background-color: rgb(138, 127, 127); border-radius: 30px 0px 30px 30px; padding: 20px; font-size: 25px; height: 55px;  margin: 20px 0px 40px 0px; width: 480px;font-weight: 600; ">استفسار حضرتك بخصوص ايه استاذ محمد      </div>
+        <div class="sp3"style="background-color: rgb(88, 84, 84); border-radius: 0px 30px 30px 30px ; direction:rtl;  padding: 20px; font-size: 25px;  height: 40px;  margin: 30px 20px 0px 0px;font-weight: 600; ">   العميل انا بستفسر  عن العربية  ......</div>
+        <div class="sp1" style=" direction: ltr;"><img style="mask-image: linear-gradient(to bottom, rgb(65, 6, 92) 70%, transparent 100%); border-radius: 0 0 0px 30px; margin-top: 50x; " src="images/client.png" alt="" width="100px" height="100px"></div>
+      </div>
+      <div class="sp" style="display: grid; margin-left:10px; grid-template-columns: 8% 40% 40% 8%  ;  column-gap: 10px; row-gap: 10px;height: 120px;">
+        <div class="sp1" style=" margin-right: 30px;"><img style="mask-image: linear-gradient(to bottom, rgb(65, 6, 92) 70%, transparent 100%);  border-radius: 0 0 0px 30px; margin-bottom: 60px;  " src="images/serviers.png" alt="" width="60px" height="100px"></div>
+        <div class="sp2" style="background-color: rgb(138, 127, 127); border-radius: 30px 0px 30px 30px; padding: 20px; font-size: 25px; height: 55px;  margin: 20px 0px 40px 0px; width: 480px;font-weight: 600; ">      حضرتك بتشرفنا بالاتصال  من محافظه ايه منطقة ايه   </div>
+        <div class="sp3"style="background-color: rgb(88, 84, 84); border-radius: 0px 30px 30px 30px ; direction:rtl;  padding: 20px; font-size: 25px;  height: 40px;  margin: 30px 20px 0px 0px;font-weight: 600; ">         كفر الشيخ </div>
+        <div class="sp1" style=" direction: ltr;"><img style="mask-image: linear-gradient(to bottom, rgb(65, 6, 92) 70%, transparent 100%); border-radius: 0 0 0px 30px; margin-top: 50x; " src="images/client.png" alt="" width="100px" height="100px"></div>
+      </div>
+      
+      <div class="sp" style="display: grid; margin-left:10px; grid-template-columns: 8% 40% 40% 8%  ;  column-gap: 10px; row-gap: 10px;height: 120px;">
+        <div class="sp1" style=" margin-right: 30px;"><img style="mask-image: linear-gradient(to bottom, rgb(65, 6, 92) 70%, transparent 100%);  border-radius: 0 0 0px 30px; margin-bottom: 60px;  " src="images/serviers.png" alt="" width="60px" height="100px"></div>
+        <div class="sp2" style="background-color: rgb(138, 127, 127); border-radius: 30px 0px 30px 30px; padding: 20px; font-size: 25px; height: 55px;  margin: 20px 0px 40px 0px; width: 480px;font-weight: 600; ">      استأذن حضرتك عرفت رقمنا عن طريق أى   </div>
+        <div class="sp3"style="background-color: rgb(88, 84, 84); border-radius: 0px 30px 30px 30px ; direction:rtl;  padding: 20px; font-size: 25px;  height: 40px;  margin: 30px 20px 0px 0px;font-weight: 600; ">         الفيس بوك </div>
+        <div class="sp1" style="direction: ltr;"><img style="mask-image: linear-gradient(to bottom, rgb(65, 6, 92) 70%, transparent 100%); border-radius: 0 0 0px 30px; margin-top: 50x; " src="images/client.png" alt="" width="100px" height="100px"></div>
+      </div>  
+      
+      <div class="sp" style="display: grid; margin-left:10px; grid-template-columns: 8% 40% 40% 8%  ;  column-gap: 10px; row-gap: 10px;height: 150px;">
+        <div class="sp1" style=" margin-right: 30px;"><img style="mask-image: linear-gradient(to bottom, rgb(65, 6, 92) 70%, transparent 100%);  border-radius: 0 0 0px 30px; margin-bottom: 60px;  " src="images/serviers.png" alt="" width="60px" height="100px"></div>
+        <div class="sp2" style="background-color: rgb(138, 127, 127); border-radius: 30px 0px 30px 30px; padding: 20px; font-size: 25px; height: 55px;  margin: 20px 0px 40px 0px; width: 480px;font-weight: 600; ">      ممكن  توضحلى نوع العربية           والفئة       والموديل   </div>
+        <div class="sp3"style="background-color: rgb(88, 84, 84); border-radius: 0px 30px 30px 30px ; direction:rtl;  padding: 20px; font-size: 25px;  height: 45px;  margin: 30px 20px 0px 0px;font-weight: 600; ">         ALFA ROMEO,	Tonale,	2024 </div>
+        <div class="sp1" style=" direction: ltr;"><img style="mask-image: linear-gradient(to bottom, rgb(65, 6, 92) 70%, transparent 100%); border-radius: 0 0 0px 30px; margin-top: 50x; " src="images/client.png" alt="" width="100px" height="100px"></div>
+      </div>
+      
+      <div class="sp" style="display: grid; margin-left:10px; grid-template-columns: 8% 40% 40% 8%  ;  column-gap: 10px; row-gap: 10px;height: 150px;">
+        <div class="sp1" style=" margin-right: 30px;"><img style="mask-image: linear-gradient(to bottom, rgb(65, 6, 92) 70%, transparent 100%); border-radius: 0 0 0px 30px; margin-bottom: 60px;  " src="images/serviers.png" alt="" width="60px" height="100px"></div>
+        <div class="sp2" style="background-color: rgb(138, 127, 127); border-radius: 30px 0px 30px 30px; padding: 20px; font-size: 25px; height: 55px;  margin: 20px 0px 40px 0px; width: 480px;font-weight: 600; ">      جديد   ولا مستعمل   </div>
+        <div class="sp3"style="background-color: rgb(88, 84, 84); border-radius: 0px 30px 30px 30px ; direction:rtl;  padding: 20px; font-size: 25px;  height: 45px;  margin: 30px 20px 0px 0px;font-weight: 600; ">         جديدة </div>
+        <div class="sp1" style=" direction: ltr;"><img style="mask-image: linear-gradient(to bottom, rgb(65, 6, 92) 70%, transparent 100%); border-radius: 0 0 0px 30px; margin-top: 50x; " src="images/client.png" alt="" width="100px" height="100px"></div>
+      </div><br>
+      <div class="i" style="font-weight: 800; text-align: center; font-size: 25px; background-color: #555d64; border-radius: 10px; padding: 5px; margin: 0px 90px 0px 120px; color: rgb(22, 27, 97);">في حاله الجديد يتم توضيح الاسعار الرسميه للعميل وتحويله للفرع لشرح باقي التفاصيل  </div><br>
+      <div class="i" style="font-weight: 800; text-align: center; font-size: 25px; background-color: #555d64; border-radius: 10px; padding: 5px; margin: 0px 90px 0px 120px; color: rgb(22, 27, 97);"> في حاله المستعمل يتم توضيح ابليكشن اباظا اوتو تردينج متاح علي جوجل بلاي او ابل استور ومتاح من خلاله كل تفاصيل السيارات المستعمله 
+ولو بيسال عن السعر هنحوله للفرع </div><br>
+      
+      <div class="sp" style="display: grid; margin-left:10px; grid-template-columns: 8% 40% 40% 8%  ;  column-gap: 10px; row-gap: 10px;height: 150px;">
+        <div class="sp1" style=" margin-right: 30px;"><img style="mask-image: linear-gradient(to bottom, rgb(65, 6, 92) 70%, transparent 100%);  border-radius: 0 0 0px 30px; margin-bottom: 60px;  " src="images/serviers.png" alt="" width="60px" height="100px"></div>
+        <div class="sp2" style="background-color: rgb(138, 127, 127); border-radius: 30px 0px 30px 30px; padding: 20px; font-size: 25px; height: 55px;  margin: 20px 0px 40px 0px; width: 480px;font-weight: 600; ">     الموظف تحت امر حضرتك يافندم هحول حضرتك  على الفرع هيوضح لحضرتك كل التفاصيل      </div>
+        <div class="sp3"style="background-color: rgb(88, 84, 84); border-radius: 0px 30px 30px 30px ; direction:rtl;  padding: 20px; font-size: 25px;  height: 45px;  margin: 30px 20px 0px 0px;font-weight: 600; ">         تمام </div>
+        <div class="sp1" style=" direction: ltr;"><img style="mask-image: linear-gradient(to bottom, rgb(65, 6, 92) 70%, transparent 100%); border-radius: 0 0 0px 30px; margin-top: 50x; " src="images/client.png" alt="" width="100px" height="100px"></div>
+      </div>
+      <div class="sp" style="display: grid; margin-left:10px; grid-template-columns: 8% 40% 40% 8%  ;  column-gap: 10px; row-gap: 10px;height: 150px;">
+        <div class="sp1" style=" margin-right: 30px;"><img style="mask-image: linear-gradient(to bottom, rgb(65, 6, 92) 70%, transparent 100%); border-radius: 0 0 0px 30px; margin-bottom: 60px;  " src="images/serviers.png" alt="" width="60px" height="100px"></div>
+        <div class="sp2" style="background-color: rgb(138, 127, 127); border-radius: 30px 0px 30px 30px; padding: 20px; font-size: 25px; height: 55px;  margin: 20px 0px 40px 0px; width: 480px;font-weight: 600; ">      أى استفسار أخر قبل التحويل    </div>
+        <div class="sp3"style="background-color: rgb(88, 84, 84); border-radius: 0px 30px 30px 30px ; direction:rtl;  padding: 20px; font-size: 25px;  height: 45px;  margin: 30px 20px 0px 0px;font-weight: 600; ">         شكرا </div>
+        <div class="sp1" style=" direction: ltr;"><img style="mask-image: linear-gradient(to bottom, rgb(65, 6, 92) 70%, transparent 100%); border-radius: 0 0 0px 30px; margin-top: 50x; " src="images/client.png" alt="" width="100px" height="100px"></div>
+      </div>
+
+      <div class="i" style="font-weight: 800; text-align: center; font-size: 25px; background-color: #555d64; border-radius: 10px; padding: 5px; margin: 0px 90px 0px 120px; color: rgb(128, 8, 8);"> فى حالة لو الاستفسار عن عربية مستعملة يتم التوضيح للعميل حضرتك تقدر تتابع ابلكيشن اباظة تقدر تحملة جول ستور او أب استور لكن فى حالة استفتسار عن الاسعار هحول حضرتك على الفرع  </div>
+
+ <div class="sp" style="display: grid; margin-left:10px; grid-template-columns: 8% 40% 40% 8%  ;  column-gap: 10px; row-gap: 10px;height: 150px;">
+        <div class="sp1" style=" margin-right: 30px;"><img style="mask-image: linear-gradient(to bottom, rgb(65, 6, 92) 70%, transparent 100%);  border-radius: 0 0 0px 30px; margin-bottom: 60px;  " src="images/serviers.png" alt="" width="60px" height="100px"></div>
+        <div class="sp2" style="background-color: rgb(138, 127, 127); border-radius: 30px 0px 30px 30px; padding: 20px; font-size: 25px; height: 70px;  margin: 20px 0px 40px 0px; width: 480px;font-weight: 600; ">اي استفسار اخر يا فندم  <br> <hr>شكرا لاتصالك بأباظة  اوتو تريدينج      </div>
+       
+      </div>
+      </div>
+  </div>     
+
+
+ <div id="collapseOne" class="collapse">
+      <div class="card">
+      <div class="i" style="font-weight: 800; text-align: center; font-size: 25px; background-color: #64146b; border-radius: 10px; padding: 5px; margin: 0px 90px 0px 120px;">في حالة استفسار العميل عن خدمة النقل  (يتم اتباع السناريو التالي )</div>
+      <div class="sp" style="display: grid; margin-left:10px; grid-template-columns: 8% 40% 40% 8%  ;  column-gap: 10px; row-gap: 10px;height: 140px;">
+        <div class="sp1" style=" margin-right: 30px;"><img style="mask-image: linear-gradient(to bottom, rgb(65, 6, 92) 70%, transparent 100%); border-radius: 0 0 0px 30px; " src="images/serviers.png" alt="" width="60px" height="100px"></div>
+        <div class="sp2" style="background-color: rgb(138, 127, 127); border-radius: 30px 0px 30px 30px; padding: 20px; font-size: 25px; height: 55px;  margin: 50px 0px 40px 20px; width: 480px; font-weight: 600;">  صباح الخير / مساء الخير اباظة اوتو تريدينج  <br>(اسم الموظف) مع حضرتك     </div>
+        <div class="sp3"style="background-color: rgb(88, 84, 84); border-radius: 0px 30px 30px 30px ; direction:rtl;  padding: 20px; font-size: 25px;  height: 40px;  margin: 60px 20px 0px 0px;font-weight: 600; ">    مساء الخير / صباح النور </div>
+        <div class="sp1" style=" direction: ltr;"><img style="mask-image: linear-gradient(to bottom, rgb(65, 6, 92) 70%, transparent 100%); border-radius: 0 0 0px 30px; margin-top: 10px; " src="images/client.png" alt="" width="100px" height="100px"></div>
+      </div> 
+       <div class="sp" style="display: grid; margin-left:10px; grid-template-columns: 8% 40% 40% 8%  ;  column-gap: 10px; row-gap: 10px;height: 120px;">
+        <div class="sp1" style=" margin-right: 30px;"><img style="mask-image: linear-gradient(to bottom, rgb(65, 6, 92) 70%, transparent 100%);  border-radius: 0 0 0px 30px; margin-bottom: 60px;  " src="images/serviers.png" alt="" width="60px" height="100px"></div>
+        <div class="sp2" style="background-color: rgb(138, 127, 127); border-radius: 30px 0px 30px 30px; padding: 20px; font-size: 25px; height: 55px;  margin: 20px 0px 40px 0px; width: 480px;  font-weight: 600;">تمام يا فندم اسمحلي في البدابه اتشرف باسم حضرتك الثنائي      </div>
+        <div class="sp3"style="background-color: rgb(88, 84, 84); border-radius: 0px 30px 30px 30px ; direction:rtl;  padding: 20px; font-size: 25px;  height: 40px;  margin: 30px 20px 0px 0px;font-weight: 600; ">  احمد محمد     </div>
+        <div class="sp1" style=" direction: ltr;"><img style="mask-image: linear-gradient(to bottom, rgb(65, 6, 92) 70%, transparent 100%); border-radius: 0 0 0px 30px; margin-top: 50x;  " src="images/client.png" alt="" width="100px" height="100px"></div>
+      </div> 
+      <div class="sp" style="display: grid; margin-left:10px; grid-template-columns: 8% 40% 40% 8%  ; column-gap: 10px; row-gap: 10px;height: 120px;">
+        <div class="sp1" style=" margin-right: 30px;"><img style="mask-image: linear-gradient(to bottom, rgb(65, 6, 92) 70%, transparent 100%);  border-radius: 0 0 0px 30px; margin-bottom: 60px;  " src="images/serviers.png" alt="" width="60px" height="100px"></div>
+        <div class="sp2" style="background-color: rgb(138, 127, 127); border-radius: 30px 0px 30px 30px; padding: 20px; font-size: 25px; height: 55px;  margin: 20px 0px 40px 0px; width: 480px;font-weight: 600; ">      حضرتك بتشرفنا بالاتصال  من محافظه ايه منطقة ايه   </div>
+        <div class="sp3"style="background-color: rgb(88, 84, 84); border-radius: 0px 30px 30px 30px ; direction:rtl;  padding: 20px; font-size: 25px;  height: 40px;  margin: 30px 20px 0px 0px;font-weight: 600; ">         كفر الشيخ </div>
+        <div class="sp1" style=" direction: ltr;"><img style="mask-image: linear-gradient(to bottom, rgb(65, 6, 92) 70%, transparent 100%); border-radius: 0 0 0px 30px; margin-top: 50x; " src="images/client.png" alt="" width="100px" height="100px"></div>
+      </div>
+      
+      <div class="sp" style="display: grid; margin-left:10px; grid-template-columns: 8% 40% 40% 8%  ;  column-gap: 10px; row-gap: 10px;height: 120px;">
+        <div class="sp1" style=" margin-right: 30px;"><img style="mask-image: linear-gradient(to bottom, rgb(65, 6, 92) 70%, transparent 100%); border-radius: 0 0 0px 30px; margin-bottom: 60px;  " src="images/serviers.png" alt="" width="60px" height="100px"></div>
+        <div class="sp2" style="background-color: rgb(138, 127, 127); border-radius: 30px 0px 30px 30px; padding: 20px; font-size: 25px; height: 55px;  margin: 20px 0px 40px 0px; width: 480px;font-weight: 600; ">      استأذن حضرتك عرفت رقمنا عن طريق أى   </div>
+        <div class="sp3"style="background-color: rgb(88, 84, 84); border-radius: 0px 30px 30px 30px ; direction:rtl;  padding: 20px; font-size: 25px;  height: 40px;  margin: 30px 20px 0px 0px;font-weight: 600; ">         الفيس بوك </div>
+        <div class="sp1" style=" direction: ltr;"><img style="mask-image: linear-gradient(to bottom, rgb(65, 6, 92) 70%, transparent 100%); border-radius: 0 0 0px 30px; margin-top: 50x; " src="images/client.png" alt="" width="100px" height="100px"></div>
+      </div>  
+       <div class="sp" style="display: grid; margin-left:10px; grid-template-columns: 8% 40% 40% 8%  ; column-gap: 10px; row-gap: 10px;height: 120px;">
+        <div class="sp1" style=" margin-right: 30px;"><img style="mask-image: linear-gradient(to bottom, rgb(65, 6, 92) 70%, transparent 100%); border-radius: 0 0 0px 30px; margin-bottom: 60px;  " src="images/serviers.png" alt="" width="60px" height="100px"></div>
+        <div class="sp2" style="background-color: rgb(138, 127, 127); border-radius: 30px 0px 30px 30px; padding: 20px; font-size: 25px; height: 55px;  margin: 20px 0px 40px 0px; width: 480px;font-weight: 600; ">       ممكن توضحلي استفسار حضرتك    </div>
+        <div class="sp3"style="background-color: rgb(88, 84, 84); border-radius: 0px 30px 30px 30px ; direction:rtl;  padding: 20px; font-size: 25px;  height: 40px;  margin: 30px 20px 0px 0px;font-weight: 600; ">         باستفسر  خدمه نقل المركبات من اباظه    </div>
+        <div class="sp1" style=" direction: ltr;"><img style="mask-image: linear-gradient(to bottom, rgb(65, 6, 92) 70%, transparent 100%); border-radius: 0 0 0px 30px; margin-top: 50x; " src="images/client.png" alt="" width="100px" height="100px"></div>
+      </div>
+       <div class="sp" style="display: grid; margin-left:10px; grid-template-columns: 8% 40% 40% 8%  ;column-gap: 10px; row-gap: 10px;height: 120px;">
+        <div class="sp1" style=" margin-right: 30px;"><img style="mask-image: linear-gradient(to bottom, rgb(65, 6, 92) 70%, transparent 100%); border-radius: 0 0 0px 30px; margin-bottom: 60px;  " src="images/serviers.png" alt="" width="60px" height="100px"></div>
+        <div class="sp2" style="background-color: rgb(138, 127, 127); border-radius: 30px 0px 30px 30px; padding: 20px; font-size: 25px; height: 55px;  margin: 20px 0px 40px 0px; width: 480px;font-weight: 600; ">      ممكن توضحلى أى نوع المركبة الحضرتك حابب تنقلها <br>  (  ملاكى /  جولف كار / سكوتر/ بيتش باجى  )   </div>
+        <div class="sp3"style="background-color: rgb(88, 84, 84); border-radius: 0px 30px 30px 30px ; direction:rtl;  padding: 20px; font-size: 25px;  height: 40px;  margin: 30px 20px 0px 0px;font-weight: 600; ">       بيتش باجي    </div>
+        <div class="sp1" style=" direction: ltr;"><img style="mask-image: linear-gradient(to bottom, rgb(65, 6, 92) 70%, transparent 100%); border-radius: 0 0 0px 30px; margin-top: 50x; " src="images/client.png" alt="" width="100px" height="100px"></div>
+      </div>
+       <div class="sp" style="display: grid; margin-left:10px; grid-template-columns: 8% 40% 40% 8%  ;  column-gap: 10px; row-gap: 10px;height: 120px;">
+        <div class="sp1" style=" margin-right: 30px;"><img style="mask-image: linear-gradient(to bottom, rgb(65, 6, 92) 70%, transparent 100%);  border-radius: 0 0 0px 30px; margin-bottom: 60px;  " src="images/serviers.png" alt="" width="60px" height="100px"></div>
+        <div class="sp2" style="background-color: rgb(138, 127, 127); border-radius: 30px 0px 30px 30px; padding: 20px; font-size: 25px; height: 55px;  margin: 20px 0px 40px 0px; width: 480px;font-weight: 600; ">      ممكن توضح لنا حضرتك حابب تنقل المركبة من منطقة اى          ألى منطقة أى يافندم     </div>
+        <div class="sp3"style="background-color: rgb(88, 84, 84); border-radius: 0px 30px 30px 30px ; direction:rtl;  padding: 20px; font-size: 25px;  height: 40px;  margin: 30px 20px 0px 0px;font-weight: 600; ">       العالمين    </div>
+        <div class="sp1" style=" direction: ltr;"><img style="mask-image: linear-gradient(to bottom, rgb(65, 6, 92) 70%, transparent 100%); border-radius: 0 0 0px 30px; margin-top: 50x; " src="images/client.png" alt="" width="100px" height="100px"></div>
+      </div>
+       <div class="sp" style="display: grid; margin-left:10px; grid-template-columns: 8% 40% 40% 8%  ;  column-gap: 10px; row-gap: 10px;height: 150px;">
+        <div class="sp1" style=" margin-right: 30px;"><img style="mask-image: linear-gradient(to bottom, rgb(65, 6, 92) 70%, transparent 100%);  border-radius: 0 0 0px 30px; margin-bottom: 60px;  " src="images/serviers.png" alt="" width="60px" height="100px"></div>
+        <div class="sp2" style="background-color: rgb(138, 127, 127); border-radius: 30px 0px 30px 30px; padding: 20px; font-size: 25px; height: 40px;  margin: 20px 0px 40px 0px; width: 480px;font-weight: 600; ">        تمام يفندم هيتم المتابعة مع حضرتك من مسؤول النقل    </div>
+        <div class="sp3"style="background-color: rgb(88, 84, 84); border-radius: 0px 30px 30px 30px ; direction:rtl;  padding: 20px; font-size: 25px;  height: 40px;  margin: 30px 20px 0px 0px;font-weight: 600; ">       تمام    </div>
+        <div class="sp1" style=" direction: ltr;"><img style="mask-image: linear-gradient(to bottom, rgb(65, 6, 92) 70%, transparent 100%); border-radius: 0 0 0px 30px; margin-top: 50x; " src="images/client.png" alt="" width="100px" height="100px"></div>
+      </div>
+                  <div class="i" style="font-weight: 800; text-align: center; font-size: 25px; background-color: #555d64; border-radius: 10px; padding: 5px; margin: 0px 90px 0px 120px; color: rgb(22, 27, 97);">       بيتم اخد نوع العربية واسم العميل ثنائي ورقم تلفونه وهينقل من فين لفين 
+وهيتم التوضيح للعميل أن هيتقدم تقديم طلب ومسؤول النقل هيتواصل معه  <hr>وهيتم ارسال بيانات العميل علي جروب النقل </div><br>
+
+       <div class="sp" style="display: grid; margin-left:10px; grid-template-columns: 8% 40% 40% 8%  ;  column-gap: 10px; row-gap: 10px;height: 130px;">
+        <div class="sp1" style=" margin-right: 30px;"><img style="mask-image: linear-gradient(to bottom, rgb(65, 6, 92) 70%, transparent 100%);  border-radius: 0 0 0px 30px; margin-bottom: 60px;  " src="images/serviers.png" alt="" width="60px" height="100px"></div>
+        <div class="sp2" style="background-color: rgb(138, 127, 127); border-radius: 30px 0px 30px 30px; padding: 20px; font-size: 25px; height: 40px;  margin: 20px 0px 40px 0px; width: 480px;font-weight: 600; ">              أى استفسار أخر قبل التحويل   </div>
+        <div class="sp3"style="background-color: rgb(88, 84, 84); border-radius: 0px 30px 30px 30px ; direction:rtl;  padding: 20px; font-size: 25px;  height: 40px;  margin: 30px 20px 0px 0px;font-weight: 600; ">       شكرا    </div>
+        <div class="sp1" style=" direction: ltr;"><img style="mask-image: linear-gradient(to bottom, rgb(65, 6, 92) 70%, transparent 100%); border-radius: 0 0 0px 30px; margin-top: 50x; " src="images/client.png" alt="" width="100px" height="100px"></div>
+      </div>
+       <div class="sp" style="display: grid; margin-left:10px; grid-template-columns: 8% 40% 40% 8%  ;  column-gap: 10px; row-gap: 10px;height: 120px;">
+        <div class="sp1" style=" margin-right: 30px;"><img style="mask-image: linear-gradient(to bottom, rgb(65, 6, 92) 70%, transparent 100%);  border-radius: 0 0 0px 30px; margin-bottom: 60px;  " src="images/serviers.png" alt="" width="60px" height="100px"></div>
+        <div class="sp2" style="background-color: rgb(138, 127, 127); border-radius: 30px 0px 30px 30px; padding: 20px; font-size: 25px; height: 70px;  margin: 20px 0px 40px 0px; width: 480px;font-weight: 600; ">      اى استفسار اخر يافندم                <hr>        شكرا لاتصالك بأباظة  اوتو تريدينج   </div>
+      </div>
+      </div>
+ </div>
+  </div>
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+ <div id="collapseTwo" class="collapse">
+      <div class="card">
+      <div class="i" style="font-weight: 800; text-align: center; font-size: 25px; background-color: #64146b; border-radius: 10px; padding: 5px; margin: 0px 90px 0px 120px;">في حالة استفسار العميل عن مركز خدمة  (يتم اتباع السناريو التالي )</div>
+      <div class="sp" style="display: grid; margin-left:10px; grid-template-columns: 8% 40% 40% 8%  ;  column-gap: 10px; row-gap: 10px;height: 140px;">
+        <div class="sp1" style=" margin-right: 30px;"><img style="mask-image: linear-gradient(to bottom, rgb(65, 6, 92) 70%, transparent 100%); border-radius: 0 0 0px 30px; " src="images/serviers.png" alt="" width="60px" height="100px"></div>
+        <div class="sp2" style="background-color: rgb(138, 127, 127); border-radius: 30px 0px 30px 30px; padding: 20px; font-size: 25px; height: 55px;  margin: 50px 0px 40px 20px; width: 480px; font-weight: 600;">  صباح الخير / مساء الخير اباظة اوتو تريدينج  <br>(اسم الموظف) مع حضرتك     </div>
+        <div class="sp3"style="background-color: rgb(88, 84, 84); border-radius: 0px 30px 30px 30px ; direction:rtl;  padding: 20px; font-size: 25px;  height: 40px;  margin: 60px 20px 0px 0px;font-weight: 600; ">    مساء الخير / صباح النور </div>
+        <div class="sp1" style="direction: ltr;"><img style="mask-image: linear-gradient(to bottom, rgb(65, 6, 92) 70%, transparent 100%); border-radius: 0 0 0px 30px; margin-top: 10px; " src="images/client.png" alt="" width="100px" height="100px"></div>
+      </div> 
+       <div class="sp" style="display: grid; margin-left:10px; grid-template-columns: 8% 40% 40% 8%  ;  column-gap: 10px; row-gap: 10px;height: 120px;">
+        <div class="sp1" style=" margin-right: 30px;"><img style="mask-image: linear-gradient(to bottom, rgb(65, 6, 92) 70%, transparent 100%);  border-radius: 0 0 0px 30px; margin-bottom: 60px;  " src="images/serviers.png" alt="" width="60px" height="100px"></div>
+        <div class="sp2" style="background-color: rgb(138, 127, 127); border-radius: 30px 0px 30px 30px; padding: 20px; font-size: 25px; height: 40px;  margin: 20px 0px 40px 0px; width: 480px;  font-weight: 600;">تمام يا فندم اسمحلي في البدابه اتشرف باسم حضرتك الثنائي      </div>
+        <div class="sp3"style="background-color: rgb(88, 84, 84); border-radius: 0px 30px 30px 30px ; direction:rtl;  padding: 20px; font-size: 25px;  height: 40px;  margin: 30px 20px 0px 0px;font-weight: 600; ">  احمد محمد     </div>
+        <div class="sp1" style=" direction: ltr;"><img style="mask-image: linear-gradient(to bottom, rgb(65, 6, 92) 70%, transparent 100%); border-radius: 0 0 0px 30px; margin-top: 50x;  " src="images/client.png" alt="" width="100px" height="100px"></div>
+      </div> 
+       <div class="sp" style="display: grid; margin-left:10px; grid-template-columns: 8% 40% 40% 8%  ;  column-gap: 10px; row-gap: 10px;height: 120px;">
+        <div class="sp1" style=" margin-right: 30px;"><img style="mask-image: linear-gradient(to bottom, rgb(65, 6, 92) 70%, transparent 100%);  border-radius: 0 0 0px 30px; margin-bottom: 60px;  " src="images/serviers.png" alt="" width="60px" height="100px"></div>
+        <div class="sp2" style="background-color: rgb(138, 127, 127); border-radius: 30px 0px 30px 30px; padding: 20px; font-size: 25px; height: 40px;  margin: 20px 0px 40px 0px; width: 480px;font-weight: 600; ">      حضرتك بتشرفنا بالاتصال  من محافظه ايه منطقة ايه   </div>
+        <div class="sp3"style="background-color: rgb(88, 84, 84); border-radius: 0px 30px 30px 30px ; direction:rtl;  padding: 20px; font-size: 25px;  height: 40px;  margin: 30px 20px 0px 0px;font-weight: 600; ">         كفر الشيخ </div>
+        <div class="sp1" style=" direction: ltr;"><img style="mask-image: linear-gradient(to bottom, rgb(65, 6, 92) 70%, transparent 100%); border-radius: 0 0 0px 30px; margin-top: 50x; " src="images/client.png" alt="" width="100px" height="100px"></div>
+      </div>
+       <div class="sp" style="display: grid; margin-left:10px; grid-template-columns: 8% 40% 40% 8%  ;  column-gap: 10px; row-gap: 10px;height: 120px;">
+        <div class="sp1" style=" margin-right: 30px;"><img style="mask-image: linear-gradient(to bottom, rgb(65, 6, 92) 70%, transparent 100%);  border-radius: 0 0 0px 30px; margin-bottom: 60px;  " src="images/serviers.png" alt="" width="60px" height="100px"></div>
+        <div class="sp2" style="background-color: rgb(138, 127, 127); border-radius: 30px 0px 30px 30px; padding: 20px; font-size: 25px; height: 40px;  margin: 20px 0px 40px 0px; width: 480px;font-weight: 600; ">      استأذن حضرتك عرفت رقمنا عن طريق أى   </div>
+        <div class="sp3"style="background-color: rgb(88, 84, 84); border-radius: 0px 30px 30px 30px ; direction:rtl;  padding: 20px; font-size: 25px;  height: 40px;  margin: 30px 20px 0px 0px;font-weight: 600; ">         الفيس بوك </div>
+        <div class="sp1" style=" direction: ltr;"><img style="mask-image: linear-gradient(to bottom, rgb(65, 6, 92) 70%, transparent 100%); border-radius: 0 0 0px 30px; margin-top: 50x; " src="images/client.png" alt="" width="100px" height="100px"></div>
+      </div>  
+       <div class="sp" style="display: grid; margin-left:10px; grid-template-columns: 8% 40% 40% 8%  ;  column-gap: 10px; row-gap: 10px;height: 120px;">
+        <div class="sp1" style=" margin-right: 30px;"><img style="mask-image: linear-gradient(to bottom, rgb(65, 6, 92) 70%, transparent 100%);  border-radius: 0 0 0px 30px; margin-bottom: 60px;  " src="images/serviers.png" alt="" width="60px" height="100px"></div>
+        <div class="sp2" style="background-color: rgb(138, 127, 127); border-radius: 30px 0px 30px 30px; padding: 20px; font-size: 25px; height: 40px;  margin: 20px 0px 40px 0px; width: 480px;font-weight: 600; ">استفسار حضرتك بخصوص ايه استاذ احمد      </div>
+        <div class="sp3"style="background-color: rgb(88, 84, 84); border-radius: 0px 30px 30px 30px ; direction:rtl;  padding: 20px; font-size: 25px;  height: 40px;  margin: 30px 20px 0px 0px;font-weight: 600; ">   العميل انا بستفسر  عن مركز خدمة  ......</div>
+        <div class="sp1" style=" direction: ltr;"><img style="mask-image: linear-gradient(to bottom, rgb(65, 6, 92) 70%, transparent 100%); border-radius: 0 0 0px 30px; margin-top: 50x; " src="images/client.png" alt="" width="100px" height="100px"></div>
+      </div>
+           <div class="i" style="font-weight: 800; text-align: center; font-size: 25px; background-color: #555d64; border-radius: 10px; padding: 5px; margin: 0px 90px 0px 120px; color: rgb(22, 27, 97);"> العربيات المتاح لها الصيانة <hr>
+( بيجو/رينو/سيتروين/فورد/ام جي/جيتور/جاك/جلوري و ايجيل/سوبارو / جيلي/ سانج يونج\  بيستون \ بروتون\يورو ريبار \رايا جولف كارز \GAC\ (DS) في حالة العربية خارج الضمان فقط \دونج فانج \سانج يونج \بستيون )  </div><br>
+
+      
+     
+      <div class="sp" style="display: grid; margin-left:10px; grid-template-columns: 8% 40% 40% 8%  ;  column-gap: 10px; row-gap: 10px;height: 120px;">
+        <div class="sp1" style=" margin-right: 30px;"><img style="mask-image: linear-gradient(to bottom, rgb(65, 6, 92) 70%, transparent 100%);  border-radius: 0 0 0px 30px; margin-bottom: 60px;  " src="images/serviers.png" alt="" width="60px" height="100px"></div>
+        <div class="sp2" style="background-color: rgb(138, 127, 127); border-radius: 30px 0px 30px 30px; padding: 20px; font-size: 25px; height: 70px;  margin: 20px 0px 40px 0px; width: 480px;font-weight: 600; ">      جميع ايام الاسبوع من الساعه   9 صباحا ل الساعه 6 مساءا بخلاف يوم الجمعه من الساعه ال2 ظهرا الي الساعه6.30 مساءا   </div>
+        <div class="sp3"style="background-color: rgb(88, 84, 84); border-radius: 0px 30px 30px 30px ; direction:rtl;  padding: 20px; font-size: 25px;  height: 40px;  margin: 30px 20px 0px 0px;font-weight: 600; ">       مع توضيح العنوان     </div>
+        <div class="sp1" style=" direction: ltr;"><img style="mask-image: linear-gradient(to bottom, rgb(65, 6, 92) 70%, transparent 100%); border-radius: 0 0 0px 30px; margin-top: 50x; " src="images/client.png" alt="" width="100px" height="100px"></div>
+      </div>
+       <div class="sp" style="display: grid; margin-left:10px; grid-template-columns: 8% 40% 40% 8%  ;  column-gap: 10px; row-gap: 10px;height: 170px;">
+        <div class="sp1" style=" margin-right: 30px;"><img style="mask-image: linear-gradient(to bottom, rgb(65, 6, 92) 70%, transparent 100%);  border-radius: 0 0 0px 30px; margin-bottom: 60px;  " src="images/serviers.png" alt="" width="60px" height="100px"></div>
+        <div class="sp2" style="background-color: rgb(138, 127, 127); border-radius: 30px 0px 30px 30px; padding: 20px; font-size: 25px; height: 110px;  margin: 20px 0px 40px 0px; width: 480px;font-weight: 600; ">      وأوضح لحضرتك يافندم ان الحضور بأسبقية الحضور قبل زيارة المركز  واخر عربية بتدخل المركز الساعة 3 مساءا ويجب توضيح مركز الخدمة بيكون فى الغردقة2   
+العنوان  : 155 تقسيم الحرفيين جنوب مدينة الغردقة بعد المرور   </div>
+        <div class="sp3"style="background-color: rgb(88, 84, 84); border-radius: 0px 30px 30px 30px ; direction:rtl;  padding: 20px; font-size: 25px;  height: 40px;  margin: 30px 20px 0px 0px;font-weight: 600; ">       تمام    </div>
+        <div class="sp1" style=" direction: ltr;"><img style="mask-image: linear-gradient(to bottom, rgb(65, 6, 92) 70%, transparent 100%); border-radius: 0 0 0px 30px; margin-top: 50x; " src="images/client.png" alt="" width="100px" height="100px"></div>
+      </div>
+       <div class="sp" style="display: grid; margin-left:10px; grid-template-columns: 8% 40% 40% 8%  ; column-gap: 10px; row-gap: 10px;height: 120px;">
+        <div class="sp1" style=" margin-right: 30px;"><img style="mask-image: linear-gradient(to bottom, rgb(65, 6, 92) 70%, transparent 100%);  border-radius: 0 0 0px 30px; margin-bottom: 60px;  " src="images/serviers.png" alt="" width="60px" height="100px"></div>
+        <div class="sp2" style="background-color: rgb(138, 127, 127); border-radius: 30px 0px 30px 30px; padding: 20px; font-size: 25px; height: 40px;  margin: 20px 0px 40px 0px; width: 480px;font-weight: 600; ">      ممكن توضحلى نوع العربية  محتاجة صيانة   </div>
+        <div class="sp3"style="background-color: rgb(88, 84, 84); border-radius: 0px 30px 30px 30px ; direction:rtl;  padding: 20px; font-size: 25px;  height: 40px;  margin: 30px 20px 0px 0px;font-weight: 600; ">       ام جى     </div>
+        <div class="sp1" style=" direction: ltr;"><img style="mask-image: linear-gradient(to bottom, rgb(65, 6, 92) 70%, transparent 100%); border-radius: 0 0 0px 30px; margin-top: 50x; " src="images/client.png" alt="" width="100px" height="100px"></div>
+      </div>
+
+
+
+       <div class="sp" style="display: grid; margin-left:10px; grid-template-columns: 8% 40% 40% 8%  ;  column-gap: 10px; row-gap: 10px;height: 120px;">
+        <div class="sp1" style=" margin-right: 30px;"><img style="mask-image: linear-gradient(to bottom, rgb(65, 6, 92) 70%, transparent 100%);  border-radius: 0 0 0px 30px; margin-bottom: 60px;  " src="images/serviers.png" alt="" width="60px" height="100px"></div>
+        <div class="sp2" style="background-color: rgb(138, 127, 127); border-radius: 30px 0px 30px 30px; padding: 20px; font-size: 25px; height: 55px;  margin: 20px 0px 40px 0px; width: 480px;font-weight: 600; ">      لو حضرتك حابب تفاصيل اكتر احول حضرتك على مركز الخدمة    </div>
+        <div class="sp3"style="background-color: rgb(88, 84, 84); border-radius: 0px 30px 30px 30px ; direction:rtl;  padding: 20px; font-size: 25px;  height: 40px;  margin: 30px 20px 0px 0px;font-weight: 600; ">       تمام    </div>
+        <div class="sp1" style=" direction: ltr;"><img style="mask-image: linear-gradient(to bottom, rgb(65, 6, 92) 70%, transparent 100%); border-radius: 0 0 0px 30px; margin-top: 50x; " src="images/client.png" alt="" width="100px" height="100px"></div>
+      </div>
+       <div class="sp" style="display: grid; margin-left:10px; grid-template-columns: 8% 40% 40% 8%  ;  column-gap: 10px; row-gap: 10px;height: 120px;">
+        <div class="sp1" style=" margin-right: 30px;"><img style="mask-image: linear-gradient(to bottom, rgb(65, 6, 92) 70%, transparent 100%);  border-radius: 0 0 0px 30px; margin-bottom: 60px;  " src="images/serviers.png" alt="" width="60px" height="100px"></div>
+        <div class="sp2" style="background-color: rgb(138, 127, 127); border-radius: 30px 0px 30px 30px; padding: 20px; font-size: 25px; height: 40px;  margin: 20px 0px 40px 0px; width: 480px;font-weight: 600; ">      أى استفسار أخر قبل التحويل   </div>
+        <div class="sp3"style="background-color: rgb(88, 84, 84); border-radius: 0px 30px 30px 30px ; direction:rtl;  padding: 20px; font-size: 25px;  height: 40px;  margin: 30px 20px 0px 0px;font-weight: 600; ">       شكرا    </div>
+        <div class="sp1" style=" direction: ltr;"><img style="mask-image: linear-gradient(to bottom, rgb(65, 6, 92) 70%, transparent 100%); border-radius: 0 0 0px 30px; margin-top: 50x; " src="images/client.png" alt="" width="100px" height="100px"></div>
+      </div>
+      <div class="sp" style="display: grid; margin-left:10px; grid-template-columns: 8% 40% 40% 8%  ;  column-gap: 10px; row-gap: 10px;height: 150px;">
+        <div class="sp1" style=" margin-right: 30px;"><img style="mask-image: linear-gradient(to bottom, rgb(65, 6, 92) 70%, transparent 100%);  border-radius: 0 0 0px 30px; margin-bottom: 60px;  " src="images/serviers.png" alt="" width="60px" height="100px"></div>
+        <div class="sp2" style="background-color: rgb(138, 127, 127); border-radius: 30px 0px 30px 30px; padding: 20px; font-size: 25px; height: 70px;  margin: 20px 0px 40px 0px; width: 480px;font-weight: 600; ">اي استفسار اخر يا فندم  <br> <hr>شكرا لاتصالك بأباظة  اوتو تريدينج      </div>
+       
+      </div>
+      <div class="i" style="font-weight: 800; text-align: center; font-size: 25px; background-color: #555d64; border-radius: 10px; padding: 5px; margin: 0px 90px 0px 120px; color: rgb(22, 27, 97);"> يتم تسجيل نوع الاستسفسار :   او نوع المركبة بيسأل عن صيانتها    نوع العطل فى المركبة    وكتابة موديل المركبة    </div><br>
+
+      </div>
+ </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script>
+    //private to 4 botton to script
+    function toggleContent(id) {
+      const collapses = document.querySelectorAll('.collapse');
+      collapses.forEach(el => {
+        if (el.id !== id) {
+          el.classList.remove('active');
+        }
+      });
+
+      const target = document.getElementById(id);
+      target.classList.toggle('active');
+    }
+  </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        
+        function showAlert(id) {
+          document.getElementById(id).style.display = 'flex';
+        }
+      
+        function hideAlert(id) {
+          document.getElementById(id).style.display = 'none';
+        }
+        document.querySelectorAll('.customAlert').forEach(alert => {
+          alert.addEventListener('click', function (e) {
+            if (!e.target.closest('.customAlertBox') && !e.target.closest('.customAlertBox3')) {
+              this.style.display = 'none';
+            }
+          });
+        });
+
+
+
+
+
+
+
+
+        const input = document.getElementById("searchInput");
+    const table = document.getElementById("studentsTable");
+    const rows = table.getElementsByTagName("tr");
+
+    input.addEventListener("keyup", function() {
+      const filter = input.value.toLowerCase();
+
+      for (let i = 1; i < rows.length; i++) {
+        const rowText = rows[i].textContent.toLowerCase();
+        rows[i].style.display = rowText.includes(filter) ? "" : "none";
+      }
+    });
+    
+        
+        
+      </script>
+</body>
+</html>
